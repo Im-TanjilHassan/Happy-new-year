@@ -60,3 +60,13 @@ section {
     width: 100%;
 }
 
+/* midNight party section */
+
+.midnight-party {
+    background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0)), url('../imges/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+}
