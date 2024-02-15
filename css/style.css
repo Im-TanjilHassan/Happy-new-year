@@ -1,0 +1,62 @@
+main {
+    margin: 0 10%;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+/* banner section */
+.banner {
+    background-image: linear-gradient(rgb(7, 2, 17), rgba(255, 255, 255, 0)), url('../imges/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    height: 85vh;
+}
+
+.banner-text {
+    width: 50%;
+    display: inline-block;
+    margin: 8% auto;
+}
+
+.banner-text p {
+    font-size: 2em;
+    word-spacing: 10px;
+}
+
+.banner-text h1 {
+    font-size: 3em;
+}
+
+/* holiday deal section */
+
+.holiday-deal {
+    padding: 0 20%;
+    text-align: center;
+}
+
+#offerText {
+    font-size: 3em;
+    font-weight: bold;
+    color: green;
+}
+
+.holiday-offer p {
+    color: red;
+}
+
+.holiday-offer h2 {
+    font-size: 2em;
+}
+
+.holiday-deal img {
+    width: 100%;
+}
+
