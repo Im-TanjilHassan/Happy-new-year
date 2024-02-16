@@ -50,6 +50,7 @@ section {
 
 .comn-clr {
     color: red;
+    font-weight: bold;
 }
 
 .holiday-offer h2 {
@@ -210,4 +211,65 @@ section {
     position: relative;
     right: 30%;
     top: 20%;
+}
+
+/* out portfolio section */
+
+
+.flx-box1 {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.flx-box1 img {
+    width: 33%;
+    margin-right: 2%;
+}
+
+.flx-box1 img:hover {
+    border-radius: 4%;
+    box-shadow: 5px 5px 20px;
+}
+
+.flx-box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flx-box2 img {
+    width: 33%;
+    margin-right: 2%;
+}
+
+.flx-box2 img:hover {
+    border-radius: 4%;
+    box-shadow: 5px 5px 20px;
+}
+
+/* subscribe newsletter section */
+
+.subscribe-sec {
+    padding: 10%;
+    text-align: center;
+    position: relative;
+}
+
+.subscribe-sec input {
+    padding: 2%;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 5%;
+}
+
+.subscribe-sec a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 1.3%;
+    position: absolute;
+    top: 71%;
+    right: 28%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
