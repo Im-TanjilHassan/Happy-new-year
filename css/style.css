@@ -68,5 +68,43 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
+}
+
+.flexible {
     display: flex;
 }
+
+.party-info {
+    color: white;
+    width: 60%;
+    padding: 5%;
+}
+
+.party-info h2 {
+    font-size: 3em;
+}
+
+.party-info a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5%;
+    padding: 1% 8%;
+}
+
+.party-info a:hover {
+    background-color: white;
+    color: black;
+}
+
+.party-img {
+    width: 40%;
+}
+
+.party-img img {
+    width: 60%;
+    margin-top: 20%;
+}
+
+
